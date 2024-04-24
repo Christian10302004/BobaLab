@@ -1,0 +1,99 @@
+body {
+  font-family: 'Shadows Into Light', cursive;
+  background-image: url(logo.jpg); /* light gray background */
+}
+
+.app {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff; /* white background */
+  border: 1px solid #ddd; /* light gray border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+h1 {
+  font-size: 36px;
+  color: #333; /* dark gray text */
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #666; /* medium gray text */
+  margin-bottom: 20px;
+}
+
+.input-header {
+  background-color: #f0f0f0; /* light gray background */
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* light gray border */
+}
+
+h5 {
+  font-size: 18px;
+  color: #333; /* dark gray text */
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50; /* green background */
+  color: #fff; /* white text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41; /* darker green background */
+}
+
+.to-do-input {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc; /* light gray border */
+}
+
+#enter {
+  background-color: #4CAF50; /* green background */
+  color: #fff; /* white text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#enter:hover {
+  background-color: #3e8e41; /* darker green background */
+}
+
+.to-do-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.to-do-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* light gray border */
+}
+
+.to-do-list li:last-child {
+  border-bottom: none;
+}
+
+.fa-check-circle {
+  color: #4CAF50; /* green text */
+  margin-right: 10px;
+}
+
+.fa-trash-alt {
+  color: #ff0000; /* red text */
+  margin-right: 10px;
+}

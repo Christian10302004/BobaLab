@@ -1,0 +1,76 @@
+body {
+	font-family: Arial, sans-serif;
+	background-image: url(logo.jpg); /* light gray background */
+	background-size:30%; /* cover the entire background */
+	background-position: center center; /* center the image */
+  }
+  
+  h1 {
+	text-align: center;
+	color: antiquewhite;
+	background-color: #333; /* dark gray background */
+	padding: 10px;
+	border-bottom: 1px solid #ccc; /* light gray border */
+  }
+  
+  h2 {
+	color: aliceblue;
+	background-color: #444; /* dark gray background */
+	padding: 10px;
+	border-bottom: 1px solid #ccc; /* light gray border */
+  }
+  
+  form {
+	max-width: 400px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #fff; /* white background */
+	border: 1px solid #ddd; /* light gray border */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc; /* light gray border */
+  }
+  
+  button[type="submit"] {
+	background-color: #4CAF50; /* green background */
+	color: #fff; /* white text */
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+	background-color: #3e8e41; /* darker green background */
+  }
+  
+  #purchase-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  #purchase-list li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc; /* light gray border */
+  }
+  
+  #purchase-list li:last-child {
+	border-bottom: none;
+  }
+  
+  #total-points {
+	font-weight: bold;
+	color: black;
+  }

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Points Tracker</title>
+	<link rel="stylesheet" type="text/css" href="calcu.css">
+</head>
+<body>
+	<h1 style="color: antiquewhite;">Points Tracker</h1>
+	<form id="purchase-form">
+		<label for="purchase-amount">Purchase Amount:</label>
+		<input type="number" id="purchase-amount" name="purchase-amount">
+		<label for="points-earned">Points Earned:</label>
+		<input type="number" id="points-earned" name="points-earned" readonly>
+		<button type="submit"><a href="index.html">Back to List</a></button>
+	</form>
+	<h2 style="color: aliceblue;">Purchase History</h2>
+	<ul id="purchase-list"></ul>
+	<p style="color:black;">Total Points: <span id="total-points">0</span></p>
+	<script src="calcu.js"></script>
+</body>
+</html>
